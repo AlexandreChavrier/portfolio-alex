@@ -1,0 +1,30 @@
+.aside {
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 2.5rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.nav__link {
+    font-size: 1.3rem;
+    color: var(--title-color);
+    font-weight: var(--font-bold);
+} 
+
+.nav__link:hover {
+    color: var(--first-color);
+}
+

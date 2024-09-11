@@ -1,0 +1,78 @@
+/* Section container for the portfolio cards */
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center; /* Align cards to the center */
+}
+
+/* Individual card */
+.card {
+    width: 350px;
+    height: 400px;
+    padding: .8em;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: transform 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05); /* Add a slight zoom effect */
+}
+
+/* Card image */
+.card-img {
+    border: solid var(--first-color);
+    height: 40%;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+}
+
+/* Card info */
+.card-info {
+    padding-top: 10%;
+}
+
+/* SVG styling */
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Card footer */
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Text styles */
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+}
+
+/* Button styling */
+.card-button {
+    border: 1px solid #252525;
+    display: flex;
+    padding: .3em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+
+

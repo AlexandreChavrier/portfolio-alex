@@ -1,0 +1,37 @@
+.about__container {
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    padding-right: 7rem;
+}
+
+.about__data {
+    padding: 1.875rem;
+    background-color: var(--contained-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    grid-template-columns: 3fr 1fr;
+    column-gap: 1.875rem;
+    text-align: justify; 
+} 
+
+.about__description {
+    font-size: var(--normal-font-size);
+}
+
+.about__skills {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#btn__download {
+    margin-top: 1rem;
+}
+
+.skills {
+    margin-bottom: 1rem;
+}
+
+.skills__img {
+    padding-left: 0.5rem;
+}

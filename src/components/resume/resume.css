@@ -1,0 +1,33 @@
+.resume__container {
+    grid-template-columns: repeat(2, 1fr);
+    font-size: var(--normal-font-size);
+    column-gap: 1.875rem;
+}
+
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    position: relative;
+    box-shadow: var(--shadow);
+
+}
+
+.timeline__item {
+    position: relative;
+    padding-left: 3.125rem;
+    padding-bottom: 1.25rem;
+}
+
+.timeline__item:last-child {
+    padding-bottom: 0;
+}
+
+.timeline__item::before {
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    background-color: var(--first-color);
+    left: .25rem;
+}
+
