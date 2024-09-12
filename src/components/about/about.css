@@ -9,7 +9,7 @@
     background-color: var(--contained-color);
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr; 
     column-gap: 1.875rem;
     text-align: justify; 
 } 
@@ -35,3 +35,5 @@
 .skills__img {
     padding-left: 0.5rem;
 }
+
+

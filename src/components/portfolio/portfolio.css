@@ -5,15 +5,17 @@
     gap: 2rem;
     padding: 2rem;
     justify-items: center; /* Align cards to the center */
+
 }
 
 /* Individual card */
 .card {
+    border-radius: var(--border-radius);
     width: 350px;
-    height: 400px;
+    height: 450px;
     padding: .8em;
     overflow: visible;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: var(--shadow);
     transition: transform 0.3s ease;
 }
 
@@ -24,10 +26,10 @@
 
 /* Card image */
 .card-img {
-    border: solid var(--first-color);
-    height: 40%;
+    border: solid rgba(70, 68, 68, 0.258);
+    border-radius: var(--border-radius);
+    height: 50%;
     width: 100%;
-    border-radius: .5rem;
     transition: .3s ease;
 }
 
@@ -36,21 +38,6 @@
     padding-top: 10%;
 }
 
-/* SVG styling */
-svg {
-    width: 20px;
-    height: 20px;
-}
-
-/* Card footer */
-.card-footer {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    border-top: 1px solid #ddd;
-}
 
 /* Text styles */
 .text-title {
@@ -75,4 +62,57 @@ svg {
     transition: .3s ease-in-out;
 }
 
+.button-project {
+    text-align: center;
+}
 
+.img__project {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-radius);
+}
+
+/* #btn-view-project {
+    text-align: center;
+} */
+
+/* Modal (popup) styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 9999;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content img {
+    width: 100%;
+    border-radius: var(--border-radius);
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover, .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}

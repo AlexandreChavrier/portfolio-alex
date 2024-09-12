@@ -7,7 +7,7 @@ import Skills from "./Skills";
 function About() {
     return (
         <section className="about container section" id='about'>
-            <h2 className="section__title">About me</h2>
+            <h2 className="section__title" id="about_title">About me</h2>
 
             <div className="about__container grid">
                 <img src={Avatar2} alt="" className="about__img" />
