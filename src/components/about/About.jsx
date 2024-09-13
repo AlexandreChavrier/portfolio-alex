@@ -19,7 +19,7 @@ function About() {
                         I'm good at <strong>algorithms</strong> and my favorite languages are <strong>JS</strong> and <strong>Python</strong>. I also really like <strong>Node/React</strong> projects where i can combine back-end and front-end skills.<br />
                         I am motivated, disciplined, and eager to <strong>learn</strong> new technologies or <strong>refine</strong> those I already know. My ability to grasp complex concepts is one of my greatest <strong>strengths</strong>,
                         which I developed during my previous studies in law.</p>
-                        <a href="../../public/CV-Alexandre-Chavrier-F.pdf" className="btn" id='btn__download' download>Download CV</a>
+                        <a href="https://alexandrechavrier.github.io/portfolio-alex/CV-Alexandre-Chavrier-F.pdf" className="btn" id='btn__download' download>View CV</a>
                     </div>
                     <Skills/>   
                 </div>
