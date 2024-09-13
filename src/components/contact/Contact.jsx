@@ -1,22 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./contact.css";
 
 function Contact() {
+
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const form = event.target;  
+        form.submit();
+
+        setEmail('');
+        setMessage('');
+    };
+
     return (
         <section className="contact container section">
             <h2 className="section__title">Contact</h2>
             <div id="contact">
-                <form action="https://formspree.io/f/xwpejlzz" method="POST">
+                <form action="https://formspree.io/f/xwpejlzz" method="POST" onSubmit={handleSubmit}>
                     <label>
                         Your email:
-                        <input type="email" name="email" required />
+                        <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                     </label>
                     <label>
                         Message:
-                        <textarea name="message" rows="5" required></textarea>
+                        <textarea name="message" rows="5" value={message} onChange={(e) => setMessage(e.target.value)} required></textarea>
                     </label>
-                    <button className="btn" type="submit">Send</button>
                 </form>
+                <button className="btn" type="submit">Send</button>
             </div>
         </section>
     )

@@ -16,7 +16,7 @@ function Sidebar() {
                                 <i className="icon-home"></i>
                             </a>
                         </li>
-
+                        
                         <li className="nav__item">
                         <a href="#about" className="nav__link">
                             <i className="icon-user"></i>

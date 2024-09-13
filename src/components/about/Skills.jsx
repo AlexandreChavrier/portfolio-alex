@@ -2,7 +2,10 @@ import React from "react";
 import LogoJs from "../../assets/js.svg";
 import LogoPy from "../../assets/python.svg";
 import LogoPhp from "../../assets/php.svg";
-import LogoReact from "../../assets/react.svg"
+import LogoReact from "../../assets/react.svg";
+import LogoDocker from "../../assets/docker.svg";
+import LogoLaravel from "../../assets/laravel.png";
+
 
 
 function Skills () {
@@ -21,6 +24,12 @@ function Skills () {
                 </div>
                 <div className="skills__img">
                     <img src={LogoReact} alt="" />
+                </div>
+                <div className="skills__img">
+                    <img src={LogoLaravel} alt="" />
+                </div>
+                <div className="skills__img">
+                    <img src={LogoDocker} alt="" />
                 </div>
             </div>
         </div>

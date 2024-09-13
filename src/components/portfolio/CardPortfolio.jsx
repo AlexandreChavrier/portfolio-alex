@@ -12,7 +12,7 @@ function CardPortfolio({ image, title, desc, tech, onImageClick }) {
           <div className="card-info">
             <p className="text-title">{title}</p>
             <p className="text-body">{desc}</p>
-            <p className="text-body">{tech}</p>
+            <p className="text-tech"><u>Technologies used</u> : {tech}</p>
           </div>
           <div className="button-project">
             {/* <button className="btn" id="btn-view-project">View project</button> */}

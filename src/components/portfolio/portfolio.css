@@ -35,22 +35,25 @@
 
 /* Card info */
 .card-info {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 
 /* Text styles */
 .text-title {
-    font-weight: 900;
+    font-weight: var(--font-semibold);
     font-size: 1.2em;
     line-height: 1.5;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .text-body {
     font-size: .9em;
-    padding-bottom: 10px;
+    font: var(--body-font);
+    font-size: var(--normal-font-size);
 }
+
 
 /* Button styling */
 .card-button {
