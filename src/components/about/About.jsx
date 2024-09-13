@@ -16,7 +16,7 @@ function About() {
                         <p className="about__description">I'm Alexandre CHAVRIER, a <strong>junior full stack developper</strong> from Lyon, France. 
                         I'm currently working at ada tech school for <strong>9 months</strong> and <strong>1 year on a sandwich course</strong>. 
                         I'm looking for a work-study placement to put my development skills and rigor to good use in the tech world.
-                        I'm good at <strong>algorithms</strong> and my favorite languages are <strong>js</strong> and <strong>python</strong>. I also really like <span>react</span>.
+                        I'm good at <strong>algorithms</strong> and my favorite languages are <strong>JS</strong> and <strong>Python</strong>. I also really like <strong>React</strong>.
                         I am motivated, disciplined, and eager to <strong>learn</strong> new technologies or <strong>refine</strong> those I already know. My ability to grasp complex concepts is one of my greatest <strong>strengths</strong>,
                         which I developed during my previous studies in law.</p>
                         <a href="../../public/CV_Alexandre_Chavrier_F.pdf" className="btn" id='btn__download' download>Download CV</a>
