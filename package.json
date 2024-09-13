@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "private": "true",
-  "homepage": "https://AlexandreChavrier.github.io/portfolio-alex",
+  "homepage": "https://alexandrechavrier.github.io/portfolio-alex",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
